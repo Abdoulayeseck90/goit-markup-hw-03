@@ -1,18 +1,25 @@
+/* Raleway bold 26*/
+
+/*top is Roboto medium 1
+14*/
+/* logo color:#2196f38*/
+
 /*universal selector*/
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
-  width: 1300px;
+  width: 1611px;
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0px 0px 1px #757575;
 }
 
 .main-container {
-  width: 801px;
+  width: 1170px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 70px;
@@ -82,14 +89,20 @@ li {
 }
 .back-color h1 {
   color: #ffffff;
+  width: 696px;
+  height: 120px;
+
+  margin: 0 84px;
 }
 .back-color button {
   background-color: #2196f3;
-  margin: 17px;
+  margin: -12px;
   padding: 13px;
   border-radius: 6px 7px;
   border: none;
   color: #ffffff;
+  width: 200px;
+  height: 50px;
 }
 /* end of background-color*/
 
@@ -119,7 +132,7 @@ section h2 {
 
 .first-imgs-wrapper li {
   display: inline-block;
-  padding: 7px;
+  padding: 8px;
 }
 /* end of first images alignment*/
 
@@ -134,6 +147,7 @@ section h2 {
 }
 .box-shadow {
   box-shadow: -3px 3px 2px -3px #757575;
+  height: 368px;
 }
 
 .second-imgs-wrapper p {
