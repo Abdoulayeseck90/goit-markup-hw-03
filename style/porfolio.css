@@ -1,0 +1,158 @@
+/* Raleway bold 26*/
+/*top is Roboto medium 1
+14*/
+/* logo color:#2196f38*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+
+  box-shadow: 0px 5px 2px #757575;
+}
+
+.main-container {
+  width: 1300px;
+  /* margin-left: 214px; */
+  /* margin-right: 143px; */
+  margin-bottom: -142px;
+  margin: 0 300px;
+  margin-bottom: 60px;
+}
+li {
+  list-style-type: none;
+}
+/* The header*/
+/* navbar*/
+.navbar {
+  align-items: center;
+  /*height: 50px;*/
+  background-color: #ffffff;
+  padding: 20px 225px;
+  width: 100%;
+
+  border-bottom: 1px solid #ebdede;
+}
+/* this side make display inline in the navbar*/
+.navbar li {
+  display: inline-block;
+  list-style-type: none;
+}
+.navbar a {
+  text-decoration: none;
+  padding: 20px;
+}
+/*selection of the list first child*/
+.navbar li:first-child {
+  font-size: 20px;
+  font-weight: bold;
+
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-right-side {
+  position: relative;
+  left: -67px;
+}
+.nav-blue-email,
+.nav-num {
+  position: relative;
+  right: -178px;
+}
+.nav-blue {
+  color: #2196f3;
+}
+.nav-gray {
+  color: #757575;
+}
+.nav-black {
+  color: #212121;
+}
+
+/* end of navbar*/
+
+/*sub-navigation side*/
+.sub-nav {
+  padding: 19px 132px;
+  margin: 5px 5px;
+  background-color: #fff;
+  margin: 53px 135px;
+  align-items: center;
+  margin-bottom: 29px;
+}
+
+/* i use this to select the child suv-nav*/
+.sub-nav ul {
+  display: inline-block;
+  box-shadow: 0px -2px 3px 0px #757575;
+  list-style-type: none;
+  padding: 4px 19px;
+}
+
+.sub-nav a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #212121;
+  font-size: 13px;
+}
+/* i use this to select the first child suv-nav*/
+.sub-nav ul:first-child {
+  background-color: #2196f3;
+}
+/* endsub-navigation side*/
+
+h4 {
+  text-align: center;
+  padding: 7px;
+}
+
+/* start images grid alignment*/
+.container {
+  display: grid;
+  grid-template-columns: 294px 294px 294px;
+  /* grid-template-rows: 404px 404px 404px;*/
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+.container li {
+  box-shadow: 0px -2px 3px 0px #757575;
+  height: 370px;
+}
+/* i use this to positione the image*/
+.container img {
+  margin: 83px 55px;
+}
+
+/* end of images grid alignment*/
+
+footer {
+  background-color: #2f303a;
+  width: 100%;
+
+  /*padding: 41px 369px;*/
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: small;
+  /*float: right;
+    right: 30px;*/
+}
+.last {
+  padding: 38px 242px;
+  line-height: 1.5;
+}
+address li {
+  list-style-type: none;
+}
+address a:link {
+  color: #ffffff;
+  color: #757575;
+  text-decoration: none;
+}
